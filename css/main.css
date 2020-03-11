@@ -1,14 +1,19 @@
  @@charset "UTF-8";
 /*CSS Document*/
 .hidden { display: none;}
+/*PLAY AREA START*/
 #play {
   width: 100%;
-  height:1200px;
+  height:950px;
   background-color: grey;
   border: solid black 2px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.containDM {
+  display: flex;
+  align-items: flex-start;
 }
 #DM {
   width: 100%;
@@ -16,34 +21,119 @@
   background-color: black;
   margin-top: 0px;
   color: white;
+  /*display: flex;
+  align-items: flex-start;*/
+
 }
-.viewBox {
+/*.viewBox {
   width: 100%;
-  height: 300px;
+  height: 150px;
   background-color: grey;
   border: solid white 2px;
-}
+}*/
 .dropZone {
   width: 100%;
-  height: 450px;
+  height: 475px;
   border: solid white 2px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
 .zone1 {
-  width, height: 25%;
+  width: 25%;
+  height:475px;
   border: dashed white 1px;
 }
 .zone2 {
-  width, height: 25%;
+  width: 25%;
+  height:475px;
   border: dashed blue 1px;
 }
 .zone3 {
-  width, height: 25%;
+  width: 25%;
+  height:475px;
   border: dashed red 1px;
 }
 .zone4 {
-  width, height: 25%;
+  width: 25%;
+  height:475px;
   border: dashed green 1px;
 }
+/*PLAY AREA END*/
+/*CHOICE AREA START*/
+.intro {
+  text-align: center;
+}
+#container {
+  display: flex;
+  justify-content: center;
+}
+.options {
+  width: 950px;
+  height: 950px;
+  display: flex;
+  flex-direction: column;
+  background-color: grey;
+  align-items: center;
+  /*justify-content: center;*/
+}
+.lowHalf {
+  width:100%;
+  height: 900px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.classes {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 15px;
+  /*align-items: center;*/
+  justify-content: space-evenly;
+}
+.classPick {
+  text-align: center;
+}
+.races {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: dashed white 1px;
+  align-items: stretch;
+  margin-top: 20px;
+}
+.races p {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.characters {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.adventurer {
+  width: 214px;
+  height: 214px;
+  padding: 2px;
+  border: dashed blue .5px;
+}
+.human {
+  display: flex;
+  flex-direction: row;
+}
+.elf {
+  display: flex;
+  flex-direction: row;
+}
+.orc {
+  display: flex;
+  flex-direction: row;
+}
+.dwarf {
+  display: flex;
+  flex-direction: row;
+}
+/*CHOICE AREA END*/
