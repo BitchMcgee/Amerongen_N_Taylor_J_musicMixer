@@ -15,3 +15,4 @@ Skull helm - Orc - BattleAxe - Iron cuirass
 Depending on which race was selected by the user the character model displayed would either be at 50%(Dwarf), 75%(Human and Elf) and 100%(Orc). The empty model will be displayed at 75% as human is often default, and it will allow for the shrinking/growth of the Dwarf and Orc to be emphasized.
 Current Concept
 We eventually began moving in a different direction with how the drag n drop tiles will be presented while remaining with the fantasy adventure assembler idea. Instead of a player’s inventory/screen setup the background will display the board of a GameMaster, and in the 4 placeable slots one can build a team of adventurers for a musical campaign.
+    
